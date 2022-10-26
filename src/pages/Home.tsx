@@ -129,8 +129,8 @@ const Home: React.FC = () => {
       <h2 className="content__title">Все пиццы</h2>
       {status === 'error' ? (
         <div className="content__error-info">
-          <h2>Произошла ошибка 😕</h2>{' '}
-          <p>К сожалению не удалось получить пиццы. Попробуйте повторить попытку позже.</p>
+          <h2>There was an error 😕</h2>{' '}
+          <p>Unfortunately the pizzas could not be delivered. Try again later.</p>
         </div>
       ) : (
         <div className="content__items">

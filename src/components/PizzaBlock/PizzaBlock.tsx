@@ -20,7 +20,7 @@ const PizzaBlock: React.FC<PizzaBlockProps> = ({ id, title, price, imageUrl, typ
   const cartItem = useSelector(getCartItemSelectorById(id));
   const dispatch = useDispatch();
 
-  const typeNames = ['Традиционное', 'Тонкое'];
+  const typeNames = ['Traditional', 'Thin'];
 
   //console.log(cartItem);
   const addedCount = cartItem ? cartItem.count : 0;
@@ -84,7 +84,7 @@ const PizzaBlock: React.FC<PizzaBlockProps> = ({ id, title, price, imageUrl, typ
                 fill="white"
               />
             </svg>
-            <span>Добавить</span>
+            <span>Add</span>
             {addedCount > 0 && <i>{addedCount}</i>}
           </div>
         </div>

@@ -25,7 +25,7 @@ const FullPizza: React.FC = () => {
         const { data } = await axios.get('https://62c839ba0f32635590d478cf.mockapi.io/items/' + id);
         setPizza(data);
       } catch (error) {
-        alert('Ошибка про получении пиццы!');
+        alert('Mistake about receiving a pizza!');
         navigate('/');
       }
     }
@@ -43,11 +43,11 @@ const FullPizza: React.FC = () => {
       <img src={pizza.imageUrl} alt="pizza" />
 
       <p className="fullPizza-block_description">
-        <span>Состав: </span>
+        <span>Composition: </span>
         {pizza.description}
       </p>
       <p className="fullPizza-block_price">
-        <span>Цена: </span>
+        <span>Price: </span>
         {pizza.price} $
       </p>
       <div className="cart__bottom-buttons">
@@ -65,7 +65,7 @@ const FullPizza: React.FC = () => {
               strokeLinecap="round"
               strokeLinejoin="round"></path>
           </svg>
-          <span>Вернуться назад</span>
+          <span>Go back</span>
         </Link>
       </div>
     </div>

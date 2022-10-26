@@ -8,12 +8,12 @@ const NotFoundBlock: React.FC = () => {
   return (
     <div className={st.cart}>
       <div className={st.cartTitle}>
-        <h1>Ничего не найдено</h1>
+        <h1>Nothing was found</h1>
         <img src={sadSmile} alt="sadSmile" />
       </div>
 
-      <p>К сожалению данная страница отсутствует в интренет-магазине.</p>
-      <button className="button">Вернуться назад</button>
+      <p>Unfortunately this page is not available on the webshop.</p>
+      <button className="button">Go back</button>
     </div>
   );
 }

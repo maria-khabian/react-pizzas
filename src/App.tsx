@@ -28,15 +28,15 @@ function App() {
       <Route path="/" element={<MainLayout />}>
         <Route path="" element={<Home />} />
         <Route path="cart" element={
-          <React.Suspense fallback={<div>Идёт загрузка страницы...</div>}>
+          <React.Suspense fallback={<div>The page is loading...</div>}>
             <Cart />
           </React.Suspense>} />
         <Route path="pizza/:id" element={
-          <React.Suspense fallback={<div>Идёт загрузка страницы...</div>}>
+          <React.Suspense fallback={<div>The page is loading...</div>}>
             <FullPizza />
           </React.Suspense>} />
         <Route path="*" element={
-          <React.Suspense fallback={<div>Идёт загрузка страницы...</div>}>
+          <React.Suspense fallback={<div>The page is loading...</div>}>
             <NotFound />
           </React.Suspense>} />
       </Route>

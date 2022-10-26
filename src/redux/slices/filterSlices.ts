@@ -31,7 +31,7 @@ const initialState: FilterSlicesState = {
   // },
   currentPage: 1,
   sortType: {
-    name: 'популярности ↑',
+    name: 'popularity ↑',
     sortProperty: TSort.PRICE_DESC,
   },
 };

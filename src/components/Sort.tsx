@@ -14,12 +14,12 @@ type SortProps = {
 
 //переделали стейт на объекты со свойствами
 export const listSelected: ItemSelected[] = [
-  { name: 'популярности ↑', sortProperty: TSort.RATING_DESC },
-  { name: 'популярности ↓', sortProperty: TSort.RATING_ASC },
-  { name: 'цене ↑', sortProperty: TSort.PRICE_DESC },
-  { name: 'цене ↓', sortProperty: TSort.PRICE_ASC },
-  { name: 'алфавиту ↑', sortProperty: TSort.TITLE_DESC },
-  { name: 'алфавиту ↓', sortProperty: TSort.TITLE_ASC },
+  { name: 'popularity ↑', sortProperty: TSort.RATING_DESC },
+  { name: 'popularity ↓', sortProperty: TSort.RATING_ASC },
+  { name: 'price ↑', sortProperty: TSort.PRICE_DESC },
+  { name: 'price ↓', sortProperty: TSort.PRICE_ASC },
+  { name: 'alphabetically ↑', sortProperty: TSort.TITLE_DESC },
+  { name: 'alphabetically ↓', sortProperty: TSort.TITLE_ASC },
 ];
 
 const Sort: React.FC<SortProps> = React.memo(
@@ -71,7 +71,7 @@ const Sort: React.FC<SortProps> = React.memo(
                  fill="#2C2C2C"
                />
              </svg>
-             <b>Сортировка по:</b>
+             <b>Sort by:</b>
            </div>
    
            <span
