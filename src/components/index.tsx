@@ -1,0 +1,10 @@
+export { default as Home } from './../pages/Home';
+export { default as Categories } from './Categories';
+export { default as Sort } from './Sort';
+export { default as PizzaBlock } from './PizzaBlock/PizzaBlock';
+export { default as Skeleton } from './PizzaBlock/Skeleton';
+export { default as Pagination } from './Pagination/Pagination';
+export { default as CartEmpty } from './../components/CartEmpty/CartEmpty';
+export { default as NotFoundBlock } from './../components/NotFoundBlock/NotFoundBlock';
+export { default as CartItem } from './../components/CartItem/CartItem';
+export { default as Search } from './../components/Search/Search';
