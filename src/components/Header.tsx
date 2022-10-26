@@ -33,7 +33,7 @@ const Header: React.FC = () => {
           <img width="38" src={logoPizza} alt="Pizza logo" />
           <div>
             <h1>React Pizza</h1>
-            <p>самая вкусная пицца во вселенной</p>
+            <p>the tastiest pizza in the universe</p>
           </div>
         </Link>
         {/* Eсли location.pathname !== '/cart' тогда рендериться поле ввода для поиска, а если равен - тогда на странице корзина поле ввода для поиска будет отсутствовать*/}
