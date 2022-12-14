@@ -35,10 +35,10 @@ function App() {
           <React.Suspense fallback={<div>The page is loading...</div>}>
             <FullPizza />
           </React.Suspense>} />
-        <Route path="*" element={
+<!--         <Route path="*" element={
           <React.Suspense fallback={<div>The page is loading...</div>}>
             <NotFound />
-          </React.Suspense>} />
+          </React.Suspense>} /> -->
       </Route>
     </Routes>
   );
