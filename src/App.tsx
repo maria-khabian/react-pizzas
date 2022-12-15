@@ -25,8 +25,8 @@ function App() {
     //   </div>
     // </div>
     <Routes>
-      <Route path="/" element={<MainLayout />}>
-        <Route path="" element={<Home />} />
+      <Route path="" element={<MainLayout />}>
+        <Route path="/" element={<Home />} />
         <Route path="cart" element={
           <React.Suspense fallback={<div>The page is loading...</div>}>
             <Cart />
